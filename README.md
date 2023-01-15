@@ -5,8 +5,7 @@ A sample RESTfull API CRUD application project
 ### Technologies:
 - Java 11
 - Maven
-- Spring 2.7.7
-- Spring Boot
+- Spring Boot 2.7.7
 - Spring Data
 - Spring MVC
 
