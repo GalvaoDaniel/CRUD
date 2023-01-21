@@ -12,27 +12,43 @@ A sample RESTfull API CRUD application project
 #### End Points
 
 - GET 
+
   url: http://localhost:8080/api/v1/person/findAll
   
 - POST 
+
   url: http://localhost:8080/api/v1/person/save
-  body: 
+  
+  body ex.: 
+  
   {
+  
     "name": "Test name"
+    
   }
   
 - PUT 
+
   url: http://localhost:8080/api/v1/person/update
+  
   body ex.:
+  
   {
+  
     "id": 1,
-    "name": "Test name
+    "name": "Test name"
+    
   }
   
 - DELETE 
+
   url: http://localhost:8080/api/v1/person/delete
+  
   body ex.:
+  
   {
+  
     "id": 1,
     "name": "Test name"
+    
   }
