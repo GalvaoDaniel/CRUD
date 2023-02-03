@@ -11,6 +11,10 @@ A sample RESTfull API CRUD application project
 
 #### End Points
 
+- GET
+
+  url: http://localhost:8080/api/v1/person/find/{id}
+
 - GET 
 
   url: http://localhost:8080/api/v1/person/findAll
@@ -42,13 +46,4 @@ A sample RESTfull API CRUD application project
   
 - DELETE 
 
-  url: http://localhost:8080/api/v1/person/delete
-  
-  body ex.:
-  
-  {
-  
-    "id": 1,
-    "name": "Test name"
-    
-  }
+  url: http://localhost:8080/api/v1/person/delete/{id}
